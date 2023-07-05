@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:injectable/injectable.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:traffic/core/components/splash_screen.dart';
-import 'package:traffic/core/constants/app_constants.dart';
-import 'package:traffic/core/constants/app_route.dart';
-import 'package:traffic/di/di_setup.dart';
-import 'package:traffic/features/auth/presentation/login_screen.dart';
-import 'package:traffic/features/home/test_homepage.dart';
+import 'package:starter/core/components/splash_screen.dart';
+import 'package:starter/core/constants/app_constants.dart';
+import 'package:starter/core/constants/app_route.dart';
+import 'package:starter/di/di_setup.dart';
+import 'package:starter/features/auth/presentation/login_screen.dart';
+import 'package:starter/features/home/test_homepage.dart';
 
 final _rootNavigatorKey = GlobalKey<NavigatorState>();
 

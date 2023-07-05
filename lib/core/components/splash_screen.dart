@@ -3,11 +3,11 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:traffic/core/constants/app_constants.dart';
-import 'package:traffic/core/constants/app_media.dart';
-import 'package:traffic/core/constants/app_route.dart';
-import 'package:traffic/core/utils/gap.dart';
-import 'package:traffic/di/di_setup.dart';
+import 'package:starter/core/constants/app_constants.dart';
+import 'package:starter/core/constants/app_media.dart';
+import 'package:starter/core/constants/app_route.dart';
+import 'package:starter/core/utils/gap.dart';
+import 'package:starter/di/di_setup.dart';
 
 /// Splash Screen
 class SplashScreen extends StatefulWidget {
@@ -41,7 +41,7 @@ class _SplashScreenState extends State<SplashScreen> {
           ),
           VerticalGap.s,
           Text(
-            'Traffic dai'.toUpperCase(),
+            'starter dai'.toUpperCase(),
             style: Theme.of(context)
                 .textTheme
                 .headlineLarge!

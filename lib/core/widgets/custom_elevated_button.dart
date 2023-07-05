@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:traffic/core/utils/gap.dart';
+import 'package:starter/core/utils/gap.dart';
 
 /// A generic action button
 class CustomElevatedButton extends StatelessWidget {

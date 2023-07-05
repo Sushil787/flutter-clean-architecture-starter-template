@@ -2,8 +2,8 @@ import 'dart:developer';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:traffic/core/constants/app_constants.dart';
-import 'package:traffic/di/di_setup.dart';
+import 'package:starter/core/constants/app_constants.dart';
+import 'package:starter/di/di_setup.dart';
 
 /// Theme cubit
 enum ThemeState {

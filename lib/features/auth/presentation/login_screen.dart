@@ -3,13 +3,12 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:traffic/core/constants/app_route.dart';
-import 'package:traffic/core/utils/gap.dart';
-import 'package:traffic/core/utils/snackbar.dart';
-import 'package:traffic/core/widgets/custom_elevated_button.dart';
-import 'package:traffic/core/widgets/custom_textfield.dart';
-import 'package:traffic/di/di_setup.dart';
-import 'package:traffic/features/auth/presentation/cubit/auth_cubit.dart';
+import 'package:starter/core/constants/app_route.dart';
+import 'package:starter/core/utils/gap.dart';
+import 'package:starter/core/utils/snackbar.dart';
+import 'package:starter/core/widgets/custom_elevated_button.dart';
+import 'package:starter/core/widgets/custom_textfield.dart';
+import 'package:starter/features/auth/presentation/cubit/auth_cubit.dart';
 
 /// Login Screen
 class LoginScreen extends StatefulWidget {

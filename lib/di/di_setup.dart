@@ -1,6 +1,6 @@
 import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
-import 'package:traffic/di/di_setup.config.dart';
+import 'package:starter/di/di_setup.config.dart';
 
 /// GetIt instance
 final getIt = GetIt.instance;

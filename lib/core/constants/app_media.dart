@@ -6,5 +6,5 @@ class AppMedia {
   static const String basePath = 'assets/image';
 
   /// Splash Image
-  static const String splashImage = '$basePath/traffic_logo.png';
+  static const String splashImage = '$basePath/starter_logo.png';
 }

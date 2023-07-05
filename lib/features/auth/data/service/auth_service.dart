@@ -1,8 +1,9 @@
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 import 'package:injectable/injectable.dart';
-import 'package:traffic/core/constants/api_constants.dart';
-import 'package:traffic/core/dio/dio_client.dart';
+import 'package:starter/core/constants/api_constants.dart';
+import 'package:starter/core/dio/dio_client.dart';
+
 
 ///Auth Service class
 @injectable

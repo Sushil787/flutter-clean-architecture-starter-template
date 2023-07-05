@@ -7,10 +7,10 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:traffic/core/constants/app_constants.dart';
-import 'package:traffic/core/dio/network_info.dart';
-import 'package:traffic/di/di_setup.dart';
-import 'package:traffic/features/auth/domain/auth_repo.dart';
+import 'package:starter/core/constants/app_constants.dart';
+import 'package:starter/core/dio/network_info.dart';
+import 'package:starter/di/di_setup.dart';
+import 'package:starter/features/auth/domain/auth_repo.dart';
 
 part 'auth_state.dart';
 

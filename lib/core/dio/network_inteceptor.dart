@@ -2,11 +2,11 @@ import 'dart:async';
 
 import 'package:dio/dio.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:traffic/core/constants/api_constants.dart';
-import 'package:traffic/core/constants/app_constants.dart';
-import 'package:traffic/core/constants/app_route.dart';
-import 'package:traffic/core/routes/app_router.dart';
-import 'package:traffic/di/di_setup.dart';
+import 'package:starter/core/constants/api_constants.dart';
+import 'package:starter/core/constants/app_constants.dart';
+import 'package:starter/core/constants/app_route.dart';
+import 'package:starter/core/routes/app_router.dart';
+import 'package:starter/di/di_setup.dart';
 
 /// Network interceptor class
 class NetworkInterceptor extends Interceptor {
@@ -16,7 +16,7 @@ class NetworkInterceptor extends Interceptor {
     RequestInterceptorHandler handler,
   ) async {
     final token = getIt<SharedPreferences>().getString(AppConstants.tokenKey);
-    if (token != null && token.isNotEmpty ) {
+    if (token != null && token.isNotEmpty) {
       options.headers['Authorization'] = token;
     }
     handler.next(options);

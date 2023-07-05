@@ -1,4 +1,4 @@
-import 'package:traffic/config/app_config.dart';
+import 'package:starter/config/app_config.dart';
 
 /// Api constants
 class ApiConstant {

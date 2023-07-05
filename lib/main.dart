@@ -2,13 +2,14 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
-import 'package:traffic/config/app_config.dart';
-import 'package:traffic/core/routes/app_router.dart';
-import 'package:traffic/core/theme/app_theme.dart';
-import 'package:traffic/core/theme/theme_cubit.dart';
-import 'package:traffic/di/di_setup.dart';
-import 'package:traffic/features/auth/presentation/cubit/auth_cubit.dart';
-import 'package:traffic/observer.dart';
+import 'package:starter/config/app_config.dart';
+import 'package:starter/core/routes/app_router.dart';
+import 'package:starter/core/theme/app_theme.dart';
+import 'package:starter/core/theme/theme_cubit.dart';
+import 'package:starter/di/di_setup.dart';
+import 'package:starter/features/auth/presentation/cubit/auth_cubit.dart';
+import 'package:starter/observer.dart';
+
 
 /// Navigator key
 GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();

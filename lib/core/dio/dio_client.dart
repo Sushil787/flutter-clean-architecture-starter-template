@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 import 'package:injectable/injectable.dart';
-import 'package:traffic/core/dio/dio_exception.dart';
+import 'package:starter/core/dio/dio_exception.dart';
 
 /// Request Type enum
 enum RequestType {
