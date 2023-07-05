@@ -9,7 +9,7 @@ To use this package, follow the steps below:
 
 1. Clone the repository by running the following command:
 ```bash
-git clone [repository_url] 
+git clone https://github.com/Sushil787/flutter-clean-architecture-starter-template.git 
 ```
 
 2. Fetch the required dependencies by running the command:
