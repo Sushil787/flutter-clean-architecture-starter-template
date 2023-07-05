@@ -1,21 +1,6 @@
 # traffic
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-ctrl + shift +i 
-alt + shift + o
 
 # Flutter Clean Architecture Starter Template
 
@@ -27,7 +12,7 @@ To use this package, follow the steps below:
 
 1. Clone the repository by running the following command:
 ```bash
-git clone [repository_url] 
+git clone https://github.com/Sushil787/flutter-clean-architecture-starter-template.git 
 ```
 
 2. Fetch the required dependencies by running the command:
