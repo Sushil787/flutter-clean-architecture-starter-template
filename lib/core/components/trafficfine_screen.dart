@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 ///
-class starterFineScreen extends StatelessWidget {
+class StarterFineScreen extends StatelessWidget {
   ///
-  const starterFineScreen({super.key});
+  const StarterFineScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -42,7 +42,6 @@ class _CustomTextFieldState extends State<CustomTextField> {
         color: Colors.black,
       ),
       textInputAction: TextInputAction.next,
-      //TODO(sushil787): add theme file and color
       cursorColor: const Color.fromARGB(31, 74, 68, 68),
       cursorHeight: 20,
       decoration: InputDecoration(

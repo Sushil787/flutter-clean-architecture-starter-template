@@ -23,7 +23,6 @@ class AuthRepoImpl implements AuthRepo {
   Future<Either<String, Response<dynamic>>> register(
     Map<String, dynamic> data,
   ) {
-    // TODO: implement register
     throw UnimplementedError();
   }
 }
